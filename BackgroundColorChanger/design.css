@@ -1,0 +1,31 @@
+button {
+  font-family: "Open Sans";
+  font-size: 20px;
+  position: fixed;
+  margin: 250px 650px;
+  height: 30px;
+  width: 55px;
+  background-color: #0f5897;
+  border-radius: 10%;
+}
+button:hover {
+  animation: background-color 500ms infinite;
+}
+
+@keyframes background-color {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: rgb(255, 238, 0);
+  }
+  50% {
+    background-color: rgb(51, 255, 0);
+  }
+  75% {
+    background-color: rgb(13, 0, 255);
+  }
+  100% {
+    background-color: rgb(255, 0, 212);
+  }
+}
