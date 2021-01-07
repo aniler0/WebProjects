@@ -6,7 +6,8 @@ button {
   height: 30px;
   width: 55px;
   background-color: #0f5897;
-  border-radius: 10%;
+  border-radius: 20%;
+  outline:none;
 }
 button:hover {
   animation: background-color 500ms infinite;

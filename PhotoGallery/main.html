@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="gallery.js"></script>
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            margin: auto;
+            text-align: center;
+            background-color: gray;
+        }
+
+        header {
+            color: black;
+            font-family: Roboto;
+            font-size: 50px;
+        }
+
+
+        button {
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+            background-color: rgb(65, 70, 72);
+            height: 30px;
+            font-family: Roboto;
+            transition: background-color 100ms linear;
+            position: relative;
+            outline: transparent;
+
+        }
+
+
+        .next {
+            width: 50px;
+        }
+
+        .prev {
+            width: 50px;
+        }
+
+        button:hover {
+            background-color: rgba(191, 191, 191, 0.501);
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header><strong>GALLERY</strong></header>
+
+    <img id="deneme" src="foto1.jpg" alt="kırık"
+        style="width: 250px; height: 250px; position: relative; margin-bottom: 25px; border: 5px solid;">
+    <br>
+    <button class="prev" onclick="prev()"><strong>Prev</strong></button>
+    <button class="next" onclick="next()"><strong>Next</strong></button>
+
+
+
+</body>
+
+</html>
